@@ -1,0 +1,43 @@
+{
+  "api": {
+    "pumpfun_key": "your_pumpfun_api_key_here",
+    "infura_key": "your_infura_key_here",
+    "etherscan_key": "your_etherscan_key_here",
+    "poll_interval": 60
+  },
+  "filters": {
+    "min_liquidity": 5.0,
+    "max_creator_fee": 10.0,
+    "min_holders": 25,
+    "block_new_coins_minutes": 10,
+    "max_coins_per_creator": 3
+  },
+  "blacklists": {
+    "coin_addresses": "0x0000000000000000000000000000000000000000",
+    "dev_addresses": "0x0000000000000000000000000000000000000000",
+    "coin_blacklist_url": "https://your.service/coin_blacklist",
+    "dev_blacklist_url": "https://your.service/dev_blacklist"
+  },
+  "twitter": {
+    "api_key": "your_twitter_api_key",
+    "rate_limit": 30
+  },
+  "telegram": {
+    "bot_token": "your_telegram_bot_token",
+    "channel_id": "your_telegram_channel_id"
+  },
+  "trading": {
+    "default_amount": 0.1,
+    "slippage": 1.5,
+    "max_position": 5.0,
+    "stop_loss": -0.15,
+    "take_profit": 0.3
+  },
+  "security": {
+    "rugcheck_api": "your_rugcheck_api_key",
+    "bundled_threshold": 0.65
+  },
+  "database": {
+    "db_path": "pumpfun.db"
+  }
+}
